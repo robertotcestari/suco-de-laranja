@@ -11,7 +11,12 @@ const choices = [
     value: "suco-de-laranja-1",
   },
 ];
+console.log(' ')
 
+console.log('= = = = = = =')
+console.log('Feito carinhosamente para Turma XP - Trybe')
+console.log('= = = = = = =')
+console.log(' ')
 inquirer
   .prompt([
     {
