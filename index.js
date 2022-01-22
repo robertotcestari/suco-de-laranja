@@ -21,17 +21,11 @@ inquirer
       choices,
     },
   ])
-  .then(({name}) => {
-
+  .then(({ name }) => {
     if (!module.parent) {
       sucoDeLaranja(name);
     }
   })
   .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
+    console.log("Ops... aconteceu alguma coisa errada com seu suco!");
   });
-
