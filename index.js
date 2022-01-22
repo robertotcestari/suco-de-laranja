@@ -15,6 +15,7 @@ console.log(' ')
 
 console.log('= = = = = = =')
 console.log('Feito carinhosamente para Turma XP - Trybe')
+console.log('... e sim, agora eu entendi o que significa!')
 console.log('= = = = = = =')
 console.log(' ')
 inquirer
